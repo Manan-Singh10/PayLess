@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PayLess</title>
+    <link rel="stylesheet" href="styles/payless.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-margin"></div>
+      <div class="header-content">
+        <!-- Logo Section -->
+        <a href="index.html">
+          <div class="icon-container">
+            <img class="logo-icon" src="images/payless-logo-2.png" />
+          </div>
+        </a>
+
+        <!-- Search Bar -->
+        <div class="search-input-container">
+          <button type="submit" class="search-button">
+            <img
+              src="images/search-icon.png"
+              class="search-icon"
+              alt="Search"
+            />
+          </button>
+          <input
+            class="search-input js-search-input"
+            type="text"
+            placeholder="Search for Products, Brand and More"
+          />
+        </div>
+
+        <!-- Icons Section -->
+        <div class="icons-section">
+          <div class="login-grid">
+            <img
+              src="images/profile-icon-2.png"
+              class="login-icon"
+              alt="Login Icon"
+            />
+            Login
+          </div>
+          <a href="checkout.html" class="checkout-link">
+            <div class="cart-grid">
+              <img
+                src="images/cart-logo.png"
+                class="cart-icon"
+                alt="Cart Icon"
+              />
+              <div class="cart-quantity js-cart-quantity"></div>
+              Cart
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="header-margin"></div>
+    </div>
+    <div class="category-container">
+      <div class="category-margin"></div>
+      <div class="category-grid">
+        <div class="category js-category" data-category="grocery">
+          <img src="images/catergory/grocery.webp" class="category-picture" />
+          <div class="category-text">Grocery</div>
+        </div>
+        <div class="category js-category" data-category="mobiles">
+          <img src="images/catergory/mobiles.webp" class="category-picture" />
+          <div class="category-text">Mobiles</div>
+        </div>
+        <div class="category js-category" data-category="fashion">
+          <img src="images/catergory/fashion.webp" class="category-picture" />
+          <div class="category-text">Fashion</div>
+        </div>
+        <div class="category js-category" data-category="electronics">
+          <img
+            src="images/catergory/electronics.webp"
+            class="category-picture"
+          />
+          <div class="category-text">Electronics</div>
+        </div>
+        <div class="category js-category" data-category="home-and-furniture">
+          <img
+            src="images/catergory/home-and-furniture.webp"
+            class="category-picture"
+          />
+          <div class="category-text">Home & Furniture</div>
+        </div>
+        <div class="category js-category" data-category="appliances">
+          <img
+            src="images/catergory/appliances.webp"
+            class="category-picture"
+          />
+          <div class="category-text">Appliances</div>
+        </div>
+        <div class="category js-category" data-category="beauty-toys-and-more">
+          <img
+            src="images/catergory/toys-and-more.webp"
+            class="category-picture"
+          />
+          <div class="category-text">Beauty, Toys & more</div>
+        </div>
+      </div>
+      <div class="category-margin"></div>
+    </div>
+    <div class="products-grid"></div>
+    <script src="scripts/payless.js" type="module"></script>
+  </body>
+</html>
